@@ -1,0 +1,53 @@
+.ambulance{
+    text-align: center;
+}
+
+.btn-app{
+    padding-left: 65px !important;
+    padding-right: 65px !important;
+    border-radius: 30px !important;
+    background-color: #1695BF !important;
+    text-transform: none !important;
+}
+/* INPUT */
+.active{
+    color: #1695BF !important;
+}
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom: 1px solid #1695BF !important;
+    -webkit-box-shadow: 0 1px 0 0 #1695BF !important;
+    box-shadow: 0 1px 0 0 #1695BF !important;
+}
+/* SELECT */
+.selectApp{
+    text-align: left;
+}
+/* DOCTORS LIST */
+.ListDoc{
+    text-align: center;
+}
+.disponible_Nodispobible{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.disponible_Nodispobible p{
+    display: flex;
+    align-items: center;
+}
+.iconDisponible{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #00FF2B;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.iconNoDisponible{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #FF0000;
+    border-radius: 10px;
+    margin-left: 10px;
+}

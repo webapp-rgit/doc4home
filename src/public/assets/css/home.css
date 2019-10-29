@@ -1,0 +1,84 @@
+/* PROFILE SECTION*/
+.profileHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#1695BF, #0C2A41);
+}
+section .imgProfile{
+    padding: 15px;
+}
+section .imgProfile img{
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid white;
+}
+.textProfile{
+    color: white;
+    padding: 15px;
+}
+.titleText{
+    color: #1695BF;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+}
+.textBody{
+    color: #9B9B9B;
+    font-size: 18px;
+}
+.welcomeProfile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.contentActivities{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+.activitiesHome{
+    width: 150px;
+    height: 160px;
+    background: #E8E8E8;
+    color: #1695BF;
+    margin: 5px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.ml15{
+    margin-left: 15px;
+}
+.mt15px{
+    margin-top: 15px;
+}
+.contentMenu{
+    position: fixed;
+    bottom: 0;
+    background: white;
+    padding: 15px;
+    width: 100%;
+    height: 60px;
+}
+.menuFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.opcionMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.opcionMenu span{
+    font-size: 9px;
+    color: #95989A;
+}
