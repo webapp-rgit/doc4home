@@ -75,16 +75,20 @@ class Home extends Component {
                             <span>Médicos disponibles</span>
                         </div>
                     </Link>
-                    <div className="activitiesHome">
+                    <Link to="#">
+                        <div className="activitiesHome">
                         <img src="assets/img/home/Alerts.png" className="ml15" />
-                        <br />
-                        <span>Notificaciones</span>
-                    </div>
-                    <div className="activitiesHome">
+                            <br />
+                            <span>Notificaciones</span>
+                        </div>
+                    </Link>
+                    <Link to="#">
+                        <div className="activitiesHome">
                         <img src="assets/img/home/Blog.png" />
-                        <br />
-                        <span>Blog</span>
-                    </div>
+                            <br />
+                            <span>Blog</span>
+                        </div>
+                    </Link>
                     {/* <a onClick={() => firebase.auth().signOut()}>Sign out</a> */}
                 </div>
                 <Menu

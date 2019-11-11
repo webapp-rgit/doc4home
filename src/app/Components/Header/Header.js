@@ -82,25 +82,24 @@ class Header extends Component {
                         </Link>
                     </div>
                     <div className="headerHomeMenu" id="headerHomeMenuContent">
+                        <div className="perfilCustomer">
+                            <img src="assets/img/settings.png" width="90px" />
+                            <h5>Laura Buendia</h5>
+                        </div>
                         <ul>
                             <li className="menuItem">
                                 <Link to="/" className="menuEnlace">
-                                    Home1
+                                    Mis pagos
                                 </Link>
                             </li>
                             <li className="menuItem">
                                 <Link to="/" className="menuEnlace">
-                                    Home2
+                                    Mi historia clínica
                                 </Link>
                             </li>
                             <li className="menuItem">
                                 <Link to="/" className="menuEnlace">
-                                    Home3
-                                </Link>
-                            </li>
-                            <li className="menuItem">
-                                <Link to="/" className="menuEnlace">
-                                    Home4
+                                    Agregar Familiar
                                 </Link>
                             </li>
                         </ul>
